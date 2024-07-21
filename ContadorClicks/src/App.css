@@ -1,0 +1,41 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: bisque;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  font-family: Lato, sans-serif;
+}
+
+.title{
+  
+  color: #a200ff;
+}
+
+.cat-logo-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  margin: 20px;
+}
+
+.cat-logo{
+  height: 700px;
+  background-color: blueviolet;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
